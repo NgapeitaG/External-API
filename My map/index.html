@@ -11,7 +11,12 @@
 <div id="map"></div>
 <script>
 function initMap() {
-
+var options = {
+    zoom:8,
+    center:{lat:-36.85,lng:174.78333}
+}
+// map refers to the div which is the actual map
+var map = new google.maps.Map(document.getElementById('map'), options);
 }
 </script>
 <script async defer

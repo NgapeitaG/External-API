@@ -28,10 +28,10 @@ var options = {
 var map = new google.maps.Map(document.getElementById('map'), options);
 }
 
-// Marker
+// Add Marker
 var marker = new google.maps.Marker({
     position:{lat:-36.864197,lng:174.776606},
-    title:"Hello World!"
+    map:map
 });
 // To add the marker to the map, call setMap();
 marker.setMap(map);

@@ -30,6 +30,11 @@ var map = new google.maps.Map(document.getElementById('map'), options);
 
 // Add marker
 var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+var beachMarker = new google.maps.Marker({
+    position: {lat:-36.8698, lng: 174.7776},
+    map: map,
+    icon: image
+  });
 
 </script>
 <script async defer
